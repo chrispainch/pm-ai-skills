@@ -23,7 +23,7 @@ They are designed to prevent common failure modes:
 
 ## Collection Structure
 
-Skills live under `.agents/skills/<skill-name>/`.
+Skills live under `skills/<skill-name>/`.
 
 - `problem-framing/`
 - `breadboarding/`

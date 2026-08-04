@@ -23,7 +23,7 @@ career artifacts or memory
 
 ## Collection Structure
 
-Skills live under `.agents/skills/<skill-name>/`.
+Skills live under `skills/<skill-name>/`.
 
 - `career-source-intake/`
 - `career-source-interview/`

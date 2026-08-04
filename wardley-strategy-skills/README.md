@@ -18,7 +18,7 @@ The collection currently contains one skill:
 
 ## Collection Structure
 
-Skills live under `.agents/skills/<skill-name>/`.
+Skills live under `skills/<skill-name>/`.
 
 Each skill folder contains:
 

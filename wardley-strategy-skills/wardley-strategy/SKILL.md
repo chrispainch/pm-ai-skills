@@ -1,6 +1,8 @@
 ---
 name: wardley-strategy
 description: Use when Codex needs to structure strategy work with Wardley Maps: clarifying user needs, building or critiquing value chains, placing components by evolution, identifying climatic patterns and inertia, separating doctrine from context-specific gameplay, or turning messy strategic discussions into map-driven choices.
+metadata:
+  short-description: using the wardley-maps strategy framework
 ---
 
 # Wardley Strategy

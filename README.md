@@ -2,7 +2,7 @@
 
 Hotbread Studio is where Christian Painchaud develops agentic skills for his own use.
 
-This repository contains a small set of skill collections organized around practical workflows rather than generic prompts. Each collection lives in its own project folder and exposes skills through `.agents/skills/`.
+This repository contains a small set of skill collections organized around practical workflows rather than generic prompts. Each collection lives in its own project folder and exposes skills through `skills/`.
 
 ## Current Projects
 
@@ -48,10 +48,10 @@ Current top-level folders:
 - `software-pm-skills/`
 - `wardley-strategy-skills/`
 
-Within each project, skills currently live under:
+Within each project, skills live under:
 
 ```text
-.agents/skills/<skill-name>/SKILL.md
+skills/<skill-name>/SKILL.md
 ```
 
 Each collection also includes a high-level `README.md` plus supporting templates and references inside its skill folders.
