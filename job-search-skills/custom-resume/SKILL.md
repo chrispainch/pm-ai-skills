@@ -131,6 +131,24 @@ Before acting, read:
 - Prefer explicit accomplishments over generic responsibility statements
 - Reorder and rewrite existing evidence before inventing new résumé sections
 
+## Reader Attention and Progressive Disclosure
+
+Design the résumé so each section earns the reader's next moment of attention. Assume attention declines quickly after the opening scan; add proof or a distinct dimension at each step instead of restating the same claim.
+
+- Use the header and summary to establish one clear role-fit thesis.
+- Use core skills to name the mechanisms behind that thesis, not to repeat it.
+- Make the most relevant role the complete proof: show the relevant problem, the product or system change, and credible impact.
+- Use later roles to add distinct evidence or a different context; do not make each role repeat the primary-role story.
+- Use Additional Experience as supporting evidence, not the candidate's core identity, unless the posting makes it central.
+
+Order bullets within a role deliberately:
+
+1. Start with why the role is relevant to this posting.
+2. Show what was designed, changed, or delivered.
+3. Close with outcome, scale, or a distinct capability when supported.
+
+Use only as many bullets as the evidence needs—usually 2–4 for a primary role and 1–3 for supporting roles. Merge tightly coupled workflow, implementation, and impact details. Remove any bullet that merely repeats a claim already established higher in the résumé.
+
 ## File Rules
 
 - `application.json` stores structured metadata about the target role and application
