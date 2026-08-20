@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Learning"
+  short_description: "Turn outcomes into next product decisions"
+  default_prompt: "Use $product-learning to assess this launch and recommend whether to expand, iterate, pause, or stop."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Usability Validation"
+  short_description: "Test whether users complete key tasks"
+  default_prompt: "Use $usability-validation to plan and synthesize a task-based test for this shaped flow."
+
+policy:
+  allow_implicit_invocation: true

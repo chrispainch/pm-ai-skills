@@ -1,6 +1,6 @@
 ---
 name: wardley-strategy
-description: Use when Codex needs to structure strategy work with Wardley Maps: clarifying user needs, building or critiquing value chains, placing components by evolution, identifying climatic patterns and inertia, separating doctrine from context-specific gameplay, or turning messy strategic discussions into map-driven choices.
+description: "Use when Codex needs to structure strategy work with Wardley Maps: clarifying user needs, building or critiquing value chains, placing components by evolution, identifying climatic patterns and inertia, separating doctrine from context-specific gameplay, or turning messy strategic discussions into map-driven choices."
 metadata:
   short-description: using the wardley-maps strategy framework
 ---
@@ -13,14 +13,15 @@ Treat the visual Wardley map as a derived view for humans. Treat the primary wor
 
 ## Workflow
 
-1. Define the scope.
+1. Define the scope and link the relevant product direction when it exists.
 2. Identify the relevant users and their needs.
 3. Build a structured map of components and relationships needed to meet those needs.
 4. Position components by evolution: `genesis`, `custom built`, `product`, `commodity / utility`.
 5. Surface assumptions, missing components, duplication, and bias.
 6. Apply climatic patterns and doctrine.
-7. Propose plays, risks, and open uncertainties.
-8. Render the structured map into tables, prose, or a visual map only if helpful.
+7. Assess whether the landscape reaffirms, refines, or challenges the direction's desired future, strategic outcomes, and boundaries.
+8. Propose plays, risks, and open uncertainties.
+9. Render the structured map into tables, prose, or a visual map only if helpful.
 
 ## Operating Rules
 
@@ -44,6 +45,10 @@ Produce only what the task needs. Common outputs:
 - a list of climatic patterns affecting the landscape
 - doctrine gaps, duplication, and inertia to address
 - context-specific strategic plays with tradeoffs
+
+When a product direction exists, include a direction assessment with evidence that supports and challenges it, the assessment (`reaffirm`, `refine`, or `challenge`), and the recommended action. A map may challenge direction; do not force its plays to justify the existing intent.
+
+Follow the [Product Artifact Contract](../../references/product-artifact-contract.md). Write the canonical structured map to `product/strategy/wardley/<domain-id>/map.yaml`; write a derived human review only when useful to `product/strategy/wardley/<domain-id>/review.md`.
 
 ## Preferred Artifact
 

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Portfolio Prioritization"
+  short_description: "Select and sequence product bets"
+  default_prompt: "Use $portfolio-prioritization to compare these opportunity briefs and recommend what to pursue now."
+
+policy:
+  allow_implicit_invocation: true

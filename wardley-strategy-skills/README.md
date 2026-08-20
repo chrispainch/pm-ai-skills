@@ -11,6 +11,7 @@ The goal is to turn loose strategic discussion into a structured map of:
 - the evolutionary position of each component
 - climatic patterns, doctrine gaps, and inertia
 - context-specific strategic plays
+- an assessment of whether the landscape reaffirms, refines, or challenges product direction
 
 The collection currently contains one skill:
 
@@ -18,7 +19,7 @@ The collection currently contains one skill:
 
 ## Collection Structure
 
-Skills live under `skills/<skill-name>/`.
+Skills live directly in this collection.
 
 Each skill folder contains:
 

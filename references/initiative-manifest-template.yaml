@@ -1,0 +1,18 @@
+initiative_id: <initiative-id>
+status: framed
+owner: <owner>
+current_decision: discover
+direction: ../../strategy/direction/product-direction.md
+strategy:
+  wardley_map: ../../strategy/wardley/<domain-id>/map.yaml
+  strategic_play: <play-id>
+artifacts:
+  framing: framing.md
+  discovery: null
+  solution: null
+  flow: null
+  ui_exploration: null
+  usability_validation: null
+  delivery_specification: null
+  launch: null
+learning_reviews: []

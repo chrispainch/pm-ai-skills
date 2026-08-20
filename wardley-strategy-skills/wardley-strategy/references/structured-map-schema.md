@@ -24,6 +24,7 @@ Use `JSON` only when strict machine interchange is more important than readabili
 Represent the map with these top-level sections:
 
 - `scope`
+- `direction_assessment`
 - `users`
 - `components`
 - `relationships`
@@ -39,6 +40,14 @@ scope:
   name: ""
   focus: ""
   viewpoint: ""
+
+direction_assessment:
+  direction_artifact: ""
+  assumptions_examined: []
+  supporting_evidence: []
+  challenging_evidence: []
+  assessment: reaffirm
+  recommended_action: ""
 
 users:
   - id: ""

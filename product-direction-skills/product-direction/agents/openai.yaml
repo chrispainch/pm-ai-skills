@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Direction"
+  short_description: "Define durable product strategic intent"
+  default_prompt: "Use $product-direction to create a falsifiable product direction that can guide and be challenged by strategy work."
+
+policy:
+  allow_implicit_invocation: true

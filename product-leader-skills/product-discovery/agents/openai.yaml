@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Discovery"
+  short_description: "Validate selected product opportunities"
+  default_prompt: "Use $product-discovery to test the critical assumptions behind this prioritized opportunity."
+
+policy:
+  allow_implicit_invocation: true

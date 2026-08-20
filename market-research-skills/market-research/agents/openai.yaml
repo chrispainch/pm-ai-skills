@@ -1,0 +1,7 @@
+interface:
+  display_name: "Market Research"
+  short_description: "Build evidence-backed market context"
+  default_prompt: "Use $market-research to create a source-backed market brief for this product decision."
+
+policy:
+  allow_implicit_invocation: true
