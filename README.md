@@ -3,14 +3,15 @@ Where Christian Painchaud develops agentic skills for his own use.
 
 This repository contains skill collections organized around practical workflows rather than generic prompts. Each collection lives in its own project folder and exposes one folder per skill.
 
-The product-management factory combines product direction, standalone market research, Wardley strategy, and software-PM delivery skills. Its shared artifact loop is documented in [references/product-factory-loop.md](references/product-factory-loop.md), and all emitted product artifacts follow the [Product Artifact Contract](references/product-artifact-contract.md).
+The product-management factory combines product-leader, standalone market-research, and Wardley-strategy skills. Its shared artifact loop is documented in [references/product-factory-loop.md](references/product-factory-loop.md), and all emitted product artifacts follow the [Product Artifact Contract](references/product-artifact-contract.md).
 
 ## Current Projects
 
-### `software-pm-skills`
+### `product-leader-skills`
 
-This collection turns strategy-linked opportunities into validated, delivered, launched, and measured product increments.
+This collection leads the product lifecycle from durable direction through opportunity selection, delivery, launch, learning, and initiative review.
 
+- `product-direction`: defines durable product intent, strategic outcomes, boundaries, measures, and assumptions that downstream evidence may reaffirm, refine, or challenge.
 - `problem-framing`: turns a strategic play into an evidence-rated, prioritization-ready opportunity brief.
 - `portfolio-prioritization`: compares opportunities and decides which bets to pursue, sequence, hold, discover further, or stop.
 - `product-discovery`: validates the selected opportunity before solution commitment.
@@ -32,12 +33,6 @@ This collection supplies reusable market intelligence for product and strategy d
 
 - `market-research`: creates a source-backed market brief that can inform Wardley mapping, opportunity framing, solution positioning, launch, and post-launch learning.
 
-### `product-direction-skills`
-
-This collection defines the durable product purpose, desired future, strategic outcomes, boundaries, measures, and assumptions that downstream evidence must be allowed to reaffirm, refine, or challenge.
-
-- `product-direction`: creates and revises the canonical product-direction artifact.
-
 ### `wardley-strategy-skills`
 
 This collection is focused on structured strategy work using Wardley Maps. It helps turn vague strategic discussion into explicit user needs, mapped value chains, evolutionary positioning, doctrine gaps, climatic forces, inertia, and context-specific plays.
@@ -51,10 +46,9 @@ At a high level, this project forms a workflow:
 
 Current top-level folders:
 
-- `software-pm-skills/`
+- `product-leader-skills/`
 - `wardley-strategy-skills/`
 - `market-research-skills/`
-- `product-direction-skills/`
 
 Within each collection, each skill folder contains:
 
@@ -66,9 +60,8 @@ Each collection also includes a high-level `README.md` plus supporting templates
 
 ## Summary
 
-The repository currently contains four active agentic skill projects:
+The repository currently contains three active agentic skill projects:
 
-1. A product-direction system that defines durable intent and strategic boundaries.
+1. A product-leadership system centered on direction, product opportunity selection, validation, solution definition, delivery, launch, learning, and review.
 2. A standalone market-research system that supplies reusable evidence about markets, segments, alternatives, and constraints.
-3. A software/PM system centered on product opportunity selection, validation, solution definition, delivery, launch, and learning.
-4. A Wardley strategy system centered on user needs, value-chain mapping, evolutionary analysis, and strategic gameplay.
+3. A Wardley strategy system centered on user needs, value-chain mapping, evolutionary analysis, and strategic gameplay.

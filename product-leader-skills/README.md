@@ -1,4 +1,4 @@
-# Software PM Skills
+# Product Leader Skills
 
 This collection turns product-direction and strategy-linked opportunities into validated, delivered, launched, and measured product increments.
 
@@ -6,10 +6,11 @@ Durable outputs follow the shared [Product Artifact Contract](../references/prod
 
 ## What This Collection Covers
 
-The delivery loop is meant to be used after a strategic play has been translated into a product opportunity:
+The product-leadership loop turns durable direction and strategic plays into validated, delivered, launched, and measured product increments:
 
 ```text
-problem framing
+product direction
+  -> problem framing
   -> portfolio prioritization
   -> product discovery
   -> solution shaping
@@ -30,6 +31,7 @@ They are designed to prevent common failure modes:
 
 Skills live directly in this collection.
 
+- `product-direction/`
 - `problem-framing/`
 - `portfolio-prioritization/`
 - `product-discovery/`
@@ -49,6 +51,10 @@ Each skill folder contains:
 - `references/`: templates and supporting docs
 
 ## Skill Index
+
+### `product-direction`
+
+Defines durable product purpose, desired future, strategic outcomes, boundaries, measures, assumptions, and review triggers. Market research, Wardley Strategy, and product learning may reaffirm, refine, or challenge it.
 
 ### `problem-framing`
 
@@ -144,8 +150,8 @@ Runs the artifact validator and reviews whether an initiative has the evidence a
 
 ## Typical Usage Pattern
 
-1. Turn a product-direction-aligned Wardley strategic play into an opportunity brief.
-2. Select and sequence opportunities at the portfolio level.
-3. Validate the selected problem before shaping a solution.
-4. Shape, map, explore, and validate the experience.
-5. Produce a delivery-ready specification, launch deliberately, and assess the outcome.
+1. Define or revise durable product direction.
+2. Use market research and Wardley Strategy to test direction and identify strategic plays.
+3. Turn an aligned play into an opportunity brief, then select and validate the opportunity.
+4. Shape, map, explore, validate, and deliver the experience.
+5. Launch deliberately, assess outcomes, and reaffirm, refine, or challenge direction as evidence warrants.

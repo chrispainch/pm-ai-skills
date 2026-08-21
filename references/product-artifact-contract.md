@@ -60,4 +60,4 @@ Use relative links and paths only. A short recap is allowed; do not duplicate th
 
 ## Validation
 
-Run `python3 software-pm-skills/initiative-reviewer/scripts/validate_product_artifacts.py <product-root>` from this skill repository, or copy the packaged script into a consuming repository. It checks the required tree, manifest references, standard names, metadata, and local Markdown links.
+Run `python3 product-leader-skills/initiative-reviewer/scripts/validate_product_artifacts.py <product-root>` from this skill repository, or copy the packaged script into a consuming repository. It checks the required tree, manifest references, standard names, metadata, and local Markdown links.
