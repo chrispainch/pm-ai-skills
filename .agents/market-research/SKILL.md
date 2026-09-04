@@ -33,4 +33,4 @@ Build market context that improves understanding and awareness. Keep external ob
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.market-research.primary` and `outputs.market-research.evidence_ledger`, with [references/market-research-brief-template.md](references/market-research-brief-template.md) and [references/evidence-ledger-template.md](references/evidence-ledger-template.md).
+For persistent files, follow the shared output policy in the repository's `AGENTS.md`. Use [references/market-research-brief-template.md](references/market-research-brief-template.md) and [references/evidence-ledger-template.md](references/evidence-ledger-template.md).

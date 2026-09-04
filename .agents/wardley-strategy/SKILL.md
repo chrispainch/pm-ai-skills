@@ -23,4 +23,4 @@ Treat the visual map as a derived view for humans. Treat the primary working art
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.wardley-strategy.primary`; use `outputs.wardley-strategy.review` only when a human-readable review adds value. Read [references/structured-map-schema.md](references/structured-map-schema.md) when creating or updating the canonical map. Read [references/wardley-core.md](references/wardley-core.md) when you need mapping mechanics, climatic patterns, doctrine, or inertia guidance.
+For persistent files, follow the shared output policy in the repository's `AGENTS.md`. Use a human-readable review only when it adds value. Read [references/structured-map-schema.md](references/structured-map-schema.md) when creating or updating the canonical map. Read [references/wardley-core.md](references/wardley-core.md) when you need mapping mechanics, climatic patterns, doctrine, or inertia guidance.

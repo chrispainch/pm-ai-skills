@@ -20,4 +20,4 @@ Define the problem before defining a solution. Produce a decision-quality brief,
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.problem-framing.primary` and [references/framing-template.md](references/framing-template.md).
+For persistent files, follow the shared output policy in the repository's `AGENTS.md` and use [references/framing-template.md](references/framing-template.md).

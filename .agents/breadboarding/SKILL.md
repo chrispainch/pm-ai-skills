@@ -20,4 +20,4 @@ Map workflow topology, not visual styling. Make states, actions, transitions, ha
 
 ## Output
 
-Use [references/breadboarding-template.md](references/breadboarding-template.md). For a persistent record, read the [output-locations configuration](../../output-locations.yaml) and use `outputs.breadboarding.primary`.
+Use [references/breadboarding-template.md](references/breadboarding-template.md). For a persistent record, follow the shared output policy in the repository's `AGENTS.md`.

@@ -24,4 +24,4 @@ Use the relevant strategic objective, comparable opportunity briefs, and materia
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.portfolio-prioritization.primary` and [references/prioritization-template.md](references/prioritization-template.md). The output is an ordered decision record, not a feature backlog.
+For persistent files, follow the shared output policy in the repository's `AGENTS.md` and use [references/prioritization-template.md](references/prioritization-template.md). The output is an ordered decision record, not a feature backlog.

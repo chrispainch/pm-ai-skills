@@ -22,4 +22,4 @@ Make rollout legible to internal teams and users. Build on the established solut
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.product-launching.primary` and [references/product-launching-template.md](references/product-launching-template.md).
+For persistent files, follow the shared output policy in the repository's `AGENTS.md` and use [references/product-launching-template.md](references/product-launching-template.md).

@@ -22,4 +22,4 @@ Create a durable, falsifiable decision frame that the organization can act on. D
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.product-direction.primary` and [references/product-direction-template.md](references/product-direction-template.md). The persistent output is an active product direction.
+For persistent files, follow the shared output policy in the repository's `AGENTS.md` and use [references/product-direction-template.md](references/product-direction-template.md). The persistent output is an active product direction.

@@ -25,4 +25,4 @@ Use the user goal, the UI decision to explore, and any established constraints. 
 
 ## Output
 
-Use [references/ascii-ui-template.md](references/ascii-ui-template.md) when it helps the discussion. For a persistent record, read the [output-locations configuration](../../output-locations.yaml) and use `outputs.ascii-ui-exploration.primary`; persistence is optional.
+Use [references/ascii-ui-template.md](references/ascii-ui-template.md) when it helps the discussion. For a persistent record, follow the shared output policy in the repository's `AGENTS.md`; persistence is optional.

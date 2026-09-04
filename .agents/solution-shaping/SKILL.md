@@ -25,4 +25,4 @@ Use a framed problem and an active product direction. Carry forward the problem'
 
 ## Output
 
-Read the [output-locations configuration](../../output-locations.yaml) before creating persistent files. Use `outputs.solution-shaping.primary` and [references/solution-shaping-template.md](references/solution-shaping-template.md).
+For persistent files, follow the shared output policy in the repository's `AGENTS.md` and use [references/solution-shaping-template.md](references/solution-shaping-template.md).
