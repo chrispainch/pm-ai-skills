@@ -1,7 +1,0 @@
-interface:
-  display_name: "Delivery Specification"
-  short_description: "Make shaped work implementation-ready"
-  default_prompt: "Use $delivery-specification to create verifiable delivery requirements for this shaped solution."
-
-policy:
-  allow_implicit_invocation: true

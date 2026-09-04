@@ -1,7 +1,0 @@
-interface:
-  display_name: "Initiative Reviewer"
-  short_description: "Review initiative readiness and gaps"
-  default_prompt: "Use $initiative-reviewer to validate this initiative's artifacts and identify its next readiness gap."
-
-policy:
-  allow_implicit_invocation: true
