@@ -12,6 +12,8 @@ outputs:
   market-research:
     primary: context/{research_id}/brief.md
     evidence_ledger: context/{research_id}/evidence-ledger.md
+  personas:
+    primary: context/personas-{version}.md
   wardley-strategy:
     primary: strategy/wardley/{domain_id}/map.yaml
     review: strategy/wardley/{domain_id}/review.md

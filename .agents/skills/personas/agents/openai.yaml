@@ -1,0 +1,7 @@
+interface:
+  display_name: "Personas"
+  short_description: "Build a foundation of market personas"
+  default_prompt: "Use $personas to create detailed, evidence-rated personas for all material actors identified in this market research."
+
+policy:
+  allow_implicit_invocation: true
