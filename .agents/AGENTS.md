@@ -55,22 +55,7 @@ inform each downstream artifact.
 
 ## Output locations
 
-`.agents/output-locations.yaml` is the canonical registry. Read it once at the
-start of a task that will create persistent artifacts; do not make each selected
-skill rediscover it. Resolve every route relative to `output_root` (currently
-`product`) and substitute path placeholders supplied by the task.
-
-| Skill | Persistent output route(s), below `output_root` |
-| --- | --- |
-| `product-direction` | `strategy/direction/product-direction.md` |
-| `market-research` | `strategy/market-research/{research_id}/brief.md`; `strategy/market-research/{research_id}/evidence-ledger.md` |
-| `wardley-strategy` | `strategy/wardley/{domain_id}/map.yaml`; optional `strategy/wardley/{domain_id}/review.md` |
-| `portfolio-prioritization` | `strategy/portfolio/{year}-{quarter}.md` |
-| `problem-framing` | `initiatives/{initiative_id}/framing.md` |
-| `solution-shaping` | `initiatives/{initiative_id}/solution.md` |
-| `breadboarding` | `initiatives/{initiative_id}/flow.md` |
-| `ascii-ui-exploration` | optional `initiatives/{initiative_id}/ui-exploration.md` |
-| `product-launching` | `initiatives/{initiative_id}/launch.md` |
+Read `.agents/output-locations.yaml`. Its is the canonical registry for skills outputs. Do not make each selected skill rediscover it. Resolve every route relative to `output_root`, and substitute path placeholders supplied by the task.
 
 When this registry changes, update this table and any skill wording that names a
 route in the same change.
