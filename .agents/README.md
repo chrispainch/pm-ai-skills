@@ -38,16 +38,29 @@ references.
 
 ## How the skills work together
 
-The default lifecycle is:
+The skills support a product-management spiral: start broad, make strategic
+choices, turn those choices into a portfolio of problems, then repeatedly narrow
+the loop as evidence and delivered products make the next practical decision
+clearer.
 
-`product-direction` → optional `market-research` / `wardley-strategy` →
-`portfolio-prioritization` → `problem-framing` → `solution-shaping` →
-`breadboarding` / optional `ascii-ui-exploration` → `product-launching`.
+1. **Understand the market** with `market-research`: its participants, needs,
+   alternatives, forces, and evidence gaps.
+2. **Form a strategic point of view** with `product-direction` and, when useful,
+   `wardley-strategy`: which needs to serve, how to create traction, and which
+   strategic or business-model choices to make.
+3. **Choose and frame problems** with `portfolio-prioritization` and
+   `problem-framing`, using that strategic frame to decide which user or business
+   problems merit attention.
+4. **Shape and communicate solutions** with `solution-shaping`, `breadboarding`,
+   and optional `ascii-ui-exploration`; then use `product-launching` to make the
+   go-to-market plan and success measures explicit.
+5. **Learn and spiral inward** from market results, product signals, and user
+   journeys. New loops can address a new product line or feature; later loops
+   address smaller, more practical, and eventually optimization-level problems.
 
-This is a decision flow, not a mandatory linear process. Research and mapping can
-run whenever material uncertainty appears; portfolio work needs comparable
-opportunities; and launch work builds on an established solution rather than
-redefining it.
+The sequence is directional rather than a gate. Product work should revisit
+market understanding and strategy whenever outcomes challenge them, while each
+successful loop augments the value a product provides across its users' journeys.
 
 ## Outputs and operating rules
 

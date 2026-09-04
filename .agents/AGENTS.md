@@ -6,25 +6,39 @@ skill's task-specific instructions.
 
 ## Lifecycle and handoffs
 
-Use the smallest set of skills that resolves the decision at hand. The normal
-flow is:
+Use the smallest set of skills that resolves the decision at hand. Product work
+follows a **strategic spiral**, not a one-way delivery pipeline: begin with the
+largest material market and business questions, make a coherent strategic choice,
+then repeat the loop at increasingly concrete levels as products are deployed
+and their effects become observable.
 
-1. **Set direction** with `product-direction`; use `wardley-strategy` when a
-   value-chain or evolution view would change the strategic choice.
-2. **Understand the market** with `market-research` when external context or a
-   consequential assumption needs evidence.
-3. **Choose the bet** with `portfolio-prioritization` when competing
-   opportunities require a sequencing decision.
-4. **Frame the opportunity** with `problem-framing` before proposing a solution.
-5. **Shape the solution** with `solution-shaping`. It requires an active product
-   direction and a framed problem.
-6. **Make the experience legible** with `breadboarding`; use
-   `ascii-ui-exploration` only when interface structure remains uncertain.
-7. **Prepare rollout** with `product-launching` once the solution is established.
+1. **Understand the market.** Use `market-research` to establish evidence about
+   participants, needs, alternatives, market forces, and unknowns.
+2. **Form a strategic point of view.** Use `product-direction` to state the
+   chosen users, outcomes, principles, boundaries, and measures. Use
+   `wardley-strategy` when a value-chain, evolution, doctrine, or inertia view
+   would materially affect the strategy. Evaluate the strategic and business
+   model choices that can create traction; do not treat either as a feature list.
+3. **Create a problem portfolio.** Use `problem-framing` to make each selected
+   problem's user need, job context,outcomes, boundaries, evidence, and uncertainty decision-ready. Then use `portfolio-prioritization` to select and sequence the problems worth addressing within the strategic frame.
+4. **Shape the response.** Use `solution-shaping` only when the problem and its
+   governing product direction are established. Use `breadboarding` to clarify
+   workflow and journey changes. Use `ascii-ui-exploration` when information or
+   action hierarchy remains a material decision.
+5. **Bring it to market and measure it.** Use `product-launching` to define
+   rollout, enablement, operational readiness, user communication, success
+   measures, and pause/progress criteria.
+6. **Learn and spiral inward.** Treat deployed solutions, user-journey outcomes,
+   and tracking signals as evidence for the next loop. Early loops resolve broad
+   product-line or high-level needs; subsequent loops solve narrower, more
+   practical problems, and eventually optimization opportunities. Start a new
+   broad loop when pursuing a new product line or feature changes the strategic
+   set.
 
-Do not treat the flow as a checklist. Return to research, direction, or framing
-when new evidence invalidates a material assumption. Preserve links to the
-upstream artifact(s) that informed a downstream decision.
+Do not treat this as a checklist or a terminal delivery process. Return to market
+research, strategy, portfolio choice, or problem framing when evidence changes a
+material assumption. Preserve links to the upstream artifacts and decisions that
+inform each downstream artifact.
 
 ## Artifact policy
 

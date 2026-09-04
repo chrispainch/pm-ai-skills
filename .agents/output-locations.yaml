@@ -2,29 +2,29 @@ version: 1
 
 # Relative to the consuming project's root. Change this value to relocate every
 # persistent skill output without editing individual skills.
-output_root: product
+output_root: /
 
-# `{initiative_id}`, `{research_id}`, `{domain_id}`, `{year}`, `{quarter}`, and
-# `{date}` are supplied by the task when they occur in a path.
+# `{initiative_id}`, `{research_id}`, `{domain_id}`, `{year}`, `{quarter}`, 
+# `{problem}`, `{version}` and `{date}` are supplied by the task when they occur in a path.
 outputs:
   product-direction:
-    primary: strategy/direction/product-direction.md
+    primary: strategy/product-direction.md
   market-research:
-    primary: strategy/market-research/{research_id}/brief.md
-    evidence_ledger: strategy/market-research/{research_id}/evidence-ledger.md
+    primary: context/{research_id}/brief.md
+    evidence_ledger: context/{research_id}/evidence-ledger.md
   wardley-strategy:
     primary: strategy/wardley/{domain_id}/map.yaml
     review: strategy/wardley/{domain_id}/review.md
   portfolio-prioritization:
     primary: strategy/portfolio/{year}-{quarter}.md
   problem-framing:
-    primary: initiatives/{initiative_id}/framing.md
+    primary: shaping/{initiative_id}/framing-{problem}-{version}.md
   solution-shaping:
-    primary: initiatives/{initiative_id}/solution.md
+    primary: shaping/{initiative_id}/solution-{version}.md
   breadboarding:
-    primary: initiatives/{initiative_id}/flow.md
+    primary: shaping/{initiative_id}/breadboarding-flow.md
   ascii-ui-exploration:
-    primary: initiatives/{initiative_id}/ui-exploration.md
+    primary: shaping/{initiative_id}/ui-exploration.md
     persistence: optional
   product-launching:
-    primary: initiatives/{initiative_id}/launch.md
+    primary: launching/{initiative_id}/product_marketing_brief.md
